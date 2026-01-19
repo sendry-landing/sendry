@@ -92,3 +92,24 @@ footer {
   background: #2c0735;
   color: white;
 }
+.guarantee-box {
+  max-width: 420px;
+  margin: 40px auto 20px auto;
+  padding: 25px;
+  text-align: center;
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+}
+
+.guarantee-box h3 {
+  margin: 0 0 10px 0;
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.guarantee-box p {
+  margin: 0;
+  font-size: 18px;
+  opacity: 0.85;
+}
