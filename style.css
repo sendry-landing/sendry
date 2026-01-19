@@ -55,3 +55,20 @@ footer {
   color: #f9e79f;
   letter-spacing: 1px;
 }
+.download-button, .pay-button {
+  display: inline-block;
+  padding: 16px 34px;
+  background: linear-gradient(135deg, #6a0dad, #f4c430);
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px auto;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.download-button:hover, .pay-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+}
