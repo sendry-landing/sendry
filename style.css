@@ -30,3 +30,28 @@ footer {
   padding: 1rem;
   background-color: #e0e0e0;
 }
+.logo-header {
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #6a1b9a, #d4af37);
+  color: white;
+}
+
+.logo {
+  width: 140px;
+  margin-bottom: 10px;
+}
+
+.logo-caption {
+  font-size: 42px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  color: white;
+}
+
+.logo-subtitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: #f9e79f;
+  letter-spacing: 1px;
+}
