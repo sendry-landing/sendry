@@ -112,4 +112,74 @@ footer {
   margin: 0;
   font-size: 18px;
   opacity: 0.85;
+}/* === BLOG STYLING === */
+
+.blog-container {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 0 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.7;
+  color: #1f2937;
+}
+
+.blog-container h1 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+
+.blog-container h2 {
+  margin-top: 40px;
+  color: #0f766e;
+}
+
+.blog-container p {
+  font-size: 1.05rem;
+  margin: 16px 0;
+}
+
+.blog-highlight {
+  background: #f0fdfa;
+  border-left: 5px solid #0f766e;
+  padding: 20px;
+  margin: 30px 0;
+  border-radius: 6px;
+}
+
+.blog-related {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  padding: 20px;
+  margin-top: 50px;
+  border-radius: 8px;
+}
+
+.blog-related a {
+  color: #2563eb;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.blog-related a:hover {
+  text-decoration: underline;
+}
+
+.blog-cta {
+  background: linear-gradient(135deg, #0f766e, #115e59);
+  color: white;
+  padding: 30px;
+  margin-top: 60px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.blog-cta a {
+  display: inline-block;
+  margin-top: 15px;
+  background: white;
+  color: #0f766e;
+  padding: 12px 22px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
 }
