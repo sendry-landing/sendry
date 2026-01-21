@@ -196,12 +196,6 @@ nav a:hover {
   text-decoration: underline;
 }
 /* === HEADER / NAV CLEANUP === */
-header {
-  padding: 14px 20px;
-  display: flex;
-  align-items: center;
-  background: rgba(0, 0, 0, 0.25);
-}
 
 header a,
 nav a {
@@ -216,18 +210,26 @@ nav a:hover {
   text-decoration: underline;
 }
 /* === CLEAN HEADER NAV === */
-header {
+/* === TOP NAV ONLY === */
+.top-nav {
   position: sticky;
   top: 0;
   z-index: 1000;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 20px;
   padding: 14px 20px;
   background: rgba(0, 0, 0, 0.35);
 }
 
+/* Nav links */
+.top-nav a {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.top-nav a:hover {
+  text-decoration: underline;
+}
 /* Nav links */
 header a {
   color: #ffffff !important;
