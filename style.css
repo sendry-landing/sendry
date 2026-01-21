@@ -254,3 +254,32 @@ header a:hover {
   color: #555;
   margin-left: 8px;
 }
+.faq {
+  max-width: 800px;
+  margin: 80px auto;
+  padding: 0 20px;
+  text-align: left;
+}
+
+.faq h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.faq-item {
+  margin-bottom: 25px;
+  padding: 20px;
+  background: #f8f8f8;
+  border-radius: 12px;
+}
+
+.faq-item h3 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+}
+
+.faq-item p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.6;
+}
