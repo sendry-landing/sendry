@@ -389,3 +389,103 @@ footer {
   padding-top: 2rem;
   border-top: 1px solid #ddd6fe;
   text-align:
+/* ===============================
+   PAGE LAYOUT (CENTERED)
+================================ */
+
+.container,
+main,
+.content {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 1.4rem;
+}
+
+/* If you are NOT using a wrapper div,
+   this will still center everything */
+body > * {
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ===============================
+   TEXT ALIGNMENT
+================================ */
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+/* Lists stay readable */
+ul, ol {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 520px;
+}
+
+/* ===============================
+   BUTTON LINKS (FULL WIDTH ON MOBILE)
+================================ */
+
+a {
+  width: fit-content;
+  margin: 0.6rem auto;
+}
+
+@media (max-width: 640px) {
+  a {
+    width: 100%;
+  }
+}
+
+/* ===============================
+   CTA SECTION CENTERING
+================================ */
+
+.cta-box {
+  max-width: 680px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ===============================
+   BLOG LIST CENTERING
+================================ */
+
+ul li {
+  display: flex;
+  justify-content: center;
+}
+
+.post-link {
+  width: 100%;
+  max-width: 520px;
+}
+
+/* ===============================
+   MOBILE TYPOGRAPHY
+================================ */
+
+@media (max-width: 600px) {
+  body {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 1.9rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    line-height: 1.7;
+  }
+}
