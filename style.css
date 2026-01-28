@@ -692,3 +692,14 @@ footer {
     text-align: center;
   }
 }
+/* ============================
+   Trust Note (Footer CTA)
+============================ */
+
+.trust-note {
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  color: #4b3a6b; /* muted luxury purple */
+  text-align: center;
+  letter-spacing: 0.02em;
+}
