@@ -703,3 +703,38 @@ footer {
   text-align: center;
   letter-spacing: 0.02em;
 }
+/* =========================
+   Testimonials
+========================= */
+
+.testimonials {
+  max-width: 760px;
+  margin: 4rem auto;
+  padding: 0 1.4rem;
+}
+
+.testimonials h2 {
+  font-size: 1.65rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #0f766e;
+}
+
+.testimonial {
+  background: #f5f3ff;
+  border-left: 4px solid #7c3aed;
+  padding: 1.5rem 1.4rem;
+  margin-bottom: 1.4rem;
+  border-radius: 8px;
+}
+
+.testimonial .quote {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 0.6rem;
+}
+
+.testimonial .author {
+  font-size: 0.9rem;
+  color: #475569;
+}
