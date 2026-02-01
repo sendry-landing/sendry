@@ -132,3 +132,24 @@ html, body {
     font-size: 2rem;
   }
 }
+/* ===============================
+   BUTTON STYLE (FIXED)
+================================ */
+
+.button,
+.cta-box a {
+  display: inline-block;
+  background: #facc15;
+  color: #3b0764;
+  padding: 14px 28px;
+  border-radius: 999px;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 10px 22px rgba(250, 204, 21, 0.45);
+}
+
+.button:hover,
+.cta-box a:hover {
+  background: #eab308;
+  transform: translateY(-2px);
+}
