@@ -3,27 +3,22 @@
 
   <url>
     <loc>https://sendry.store/</loc>
-    <priority>1.0</priority>
   </url>
 
   <url>
     <loc>https://sendry.store/blog.html</loc>
-    <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://sendry.store/blog-beginners-make-money-online-without-social-media.html</loc>
-    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://sendry.store/blog-how-to-start-digital-business.html</loc>
-    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://sendry.store/passive-income-without-social-media.html</loc>
-    <priority>0.8</priority>
   </url>
 
 </urlset>
