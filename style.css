@@ -168,3 +168,25 @@ html, body {
   background: #6b21a8;
   color: #ffffff;
 }
+/* =========================
+   SECTION HEADER BUTTONS
+========================= */
+
+.section-button {
+  display: inline-block;
+  margin: 48px auto 28px;
+  padding: 12px 30px;
+  background: #ede9fe;            /* soft lavender */
+  color: #6b21a8;                 /* rich purple */
+  border-radius: 999px;
+  font-size: 1.1rem;
+  font-weight: 800;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(107, 33, 168, 0.15);
+}
+
+/* Center them */
+.testimonials,
+.faq {
+  text-align: center;
+}
